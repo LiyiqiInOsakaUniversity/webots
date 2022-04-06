@@ -14,7 +14,7 @@ class Sprinter(Robot):
         self.RShoulderPitch = self.getDevice('RShoulderPitch')
         self.LShoulderPitch = self.getDevice('LShoulderPitch')
         # Move the arms down.
-        self.RShoulderPitch.setPosition(1.1)
+        self.RShoulderPitch.setPosition(0.0)
         self.LShoulderPitch.setPosition(1.1)
 
         # # Get pointers to the 12 motors of the legs (not used).
